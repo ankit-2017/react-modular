@@ -37,17 +37,18 @@
             }
         ],
 		"react/react-in-jsx-scope": "off",
-        "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "warn",
-        "react/jsx-props-no-spreading": "off",
-        "no-console": "off",
-        "react/prop-types": 0,
-		"indent": "off",
-		"no-tabs": "off",
-        "semi": 0,
-        "comma-dangle":"off",
-        "no-param-reassign":"off",
-        "import/no-cycle": "off"
+        "no-param-reassign": ["error", { "props": false }]
+        // "react-hooks/rules-of-hooks": "error",
+        // "react-hooks/exhaustive-deps": "warn",
+        // "react/jsx-props-no-spreading": "off",
+        // "no-console": "off",
+        // "react/prop-types": 0,
+		// "indent": "off",
+		// "no-tabs": "off",
+        // "semi": 0,
+        // "comma-dangle":"off",
+        // "no-param-reassign":"off",
+        // "import/no-cycle": "off"
     },
     "settings": {
         "import/resolver": {

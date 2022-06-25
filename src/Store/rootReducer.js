@@ -1,6 +1,6 @@
-import { combineReducers } from '@reduxjs/toolkit'
-import loginReducer from 'views/auth/slices/login.slice'
+import { combineReducers } from '@reduxjs/toolkit';
+import HomeReducer from 'components/Home/Home.slice';
 
 export default combineReducers({
-    auth: loginReducer,
-})
+  home: HomeReducer,
+});
